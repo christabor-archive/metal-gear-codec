@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+  <title>TESTER - use for whatever!.</title>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+  <style type="text/css">
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #091A17;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #fff;
+    font-size: 12px;
+  }
+  .container-fluid {
+    width: 702px;
+    margin: 0 auto;
+  }
+  #mgs-codec {
+    background: transparent url(mgs-codec-container.svg) no-repeat 0 0;
+    background-size: cover;
+    width: 702px;
+    height: 448px;
+    margin: 1em auto;
+    position: relative;
+    z-index: 100;
+  }
+  #mgs-code svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #mgs-codec audio {
+    display: none;
+    visibility: hidden;
+  }
+  #mgs-codec .img-left,
+  #mgs-codec .img-right,
+  #mgs-codec .left-cover,
+  #mgs-codec .right-cover {
+    position: absolute;
+    z-index: 9;
+    width: 140px;
+    height: 180px;
+    border:1px solid #A6D7B2;
+    top: 25px;
+  }
+  #mgs-codec .actor-overlay {
+    background-color: #A6D7B2;
+    opacity: 0.6;
+    z-index: 99;
+  }
+  #mgs-codec .left-cover,
+  #mgs-codec .right-cover {
+    z-index: 1000;
+    opacity: 0.2;
+  }
+  #mgs-codec .img-left,
+  #mgs-codec .left-cover {
+    left: 50px;
+  }
+  #mgs-codec .img-right,
+  #mgs-codec .right-cover {
+    right: 50px;
+  }
+  #mgs-codec .transcription {
+    font-size: 16px;
+    position: absolute;
+    bottom: 10px;
+    left: 36px;
+    height: 37%;
+    z-index: 100;
+    width: 90%;
+  }
+  #mgs-codec .transcription p {
+    white-space: pre-line;
+    text-overflow: ellipsis;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #svg-volume-indicator,
+  #svg-volume-indicator-total {
+    background-size: cover;
+    height: 134px;
+    width: 227px;
+    position: absolute;
+    top: 44px;
+    left: 239px;
+    z-index: 99;
+  }
+  #svg-volume-indicator {
+    background: transparent url(codec-volume-bg.svg) no-repeat 0 0;
+    z-index: 96;
+  }
+  #svg-volume-indicator-total {
+    background: transparent url(codec-volume-bg-total.svg) no-repeat 0 0;
+    z-index: 97;
+  }
+  #svg-volume-indicator,
+  #svg-volume-indicator-total {
+    bottom: 255px;
+    background-size: cover;
+    left: 239px;
+  }
+  code {
+    color: #A6D7B2;
+    background-color: black;
+  }
+  .btn-primary {
+    background-color: #091A17;
+    border-color: #30544F;
+    border-radius: 0;
+    border-width: 2px;
+  }
+  .btn-primary:hover {
+    background-color: #A6D7B2;
+    border-color: #A6D7B2;
+    color: #30544F;
+  }
+  a {
+    color: #30544F;
+  }
+  a:hover {
+    color: #A6D7B2;
+  }
+  #notes {
+    width: 65%;
+    margin: 0 auto;
+  }
+  #notes strong {
+    color: #A6D7B2;
+  }
+  .copyrights {
+    font-size: 10px;
+    margin: 1em 0;
+    text-align: center;
+  }
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div id="mgs-codec">
+
+      <div id="svg-volume-indicator-total"></div>
+      <div id="svg-volume-indicator"></div>
+
+      <div class="actor-overlay img-left"></div>
+      <img src="fuzzy.gif" class="left-cover" alt="fuzzy animation">
+      <img src="http://placekitten.com/100/139" alt="actor 1" class="img-left">
+      <img src="fuzzy.gif" class="right-cover " alt="fuzzy animation">
+      <div class="actor-overlay img-right"></div>
+      <img src="http://placekitten.com/100/140" alt="actor 2" class="img-right">
+      <div class="transcription">
+        <p><strong>Raiden:</strong> Pliskin, I saw someone wearing a cardboard box just now...?</p>
+        <p><strong>Pliskin:</strong> A box? I don&rsquo;t know anything about that. You sure you weren&rsquo;t imagining things?</p>
+        <p><strong>Raiden: </strong>Of course I&rsquo;m sure. Do you think it&rsquo;s one of the members of Dead Cell?</p>
+        <p><strong>Pliskin: </strong>How should I know?</p>
+        <p><strong>Raiden: </strong>I don&rsquo;t want to fight someone like that...</p>
+        <p><strong>Pliskin: </strong>Why not?</p>
+        <p><strong>Raiden:</strong> Because it looked so dumb. Anyone who&rsquo;s willing to be seen like that must be completely insane. I mean, he&rsquo;s a psycho; there&rsquo;s no question about it.</p>
+      </div>
+    </div>
+    <div id="notes">
+      <small>^ click to advance dialogue.</small>
+      <br>
+      <h4>Snake? Snake? Snaaaaaake!?</h4>
+      <p>Feel free to drop in your own images or customize to your liking. Default options: </p>
+      <ol>
+        <li><strong>interval_speed</strong>: [number] A number in milliseconds to animate the volume.</li>
+        <li><strong>animation_timeout</strong>: [number] A number in milliseconds to wait before animating the volume.</li>
+        <li><strong>transcription</strong>: [string] A string referencing the paragraph elements, used to create jquery object.</li>
+      </ol>
+      <p>Adding dialogue: </p>
+      <p>Dialogue can be added by inserting each new block as a <strong>paragraph</strong> tag within the <code>.transcription</code> container.</p>
+      <br>
+      <audio controls style="display:none;">
+        <source src="codec.mp3" type="audio/mpeg">
+        </audio>
+        <p id="repo-buttons">
+          <a href="mgs-codec-container-complete.svg" target="_blank" class="btn-primary btn">Download Vector</a>
+          &nbsp;<a href="https://github.com/christabor/metal-gear-codec/" class="btn-primary btn">View on GitHub</a>
+        </p>
+        <br>
+        <p>Vector file is licensed under <a href="https://creativecommons.org/licenses/by/3.0/us/" target="_blank">CC BY 3.0 US</a>. JS is licensed under MIT License.</p>
+        <br>
+        <p>Tested in latest versions of Chrome, Firefox and Safari.</p>
+      </div>
+      <br><br>
+      <p class="copyrights">
+        <a href="http://www.sub.wz.cz/sounds.html" target="_blank">Codec mp3 by sub.wz.cz. Original sounds are copyright &copy; Konami Corporation.</a>
+      </p>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="mgs-player.js"></script>
+    <script type="text/javascript" defer>
+    $(document).ready(function(){
+      $('#mgs-codec').mgsCodec();
+
+    // add an example sound effect
+    setTimeout(function(){
+      document.querySelector('audio').play();
+    }, 400);
+  });
+    </script>
+  </body>
+  </html>
