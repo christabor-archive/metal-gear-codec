@@ -20,13 +20,44 @@
 	<polygon fill="#30544F" points="115.23,99.235 122.735,99.235 118.983,102.988 	"/>
 	<polygon fill="#30544F" points="189.605,98.482 189.605,103.988 185.854,101.235 	"/>
 	<polygon fill="#30544F" points="233.607,103.989 233.607,98.484 237.359,101.236 	"/>
-	<g>
-		<text transform="matrix(1 0 0 1 215.75 32.3643)" fill="#A6D7B2" font-family="'Abstract'" font-size="2">max</text>
-		<text transform="matrix(1 0 0 1 146.2495 89.4688)" fill="#A6D7B2" font-family="'Abstract'" font-size="2">0</text>
-		<text transform="matrix(1 0 0 1 124.6553 19.8896)" fill="#A6D7B2" font-family="'Abstract'" font-size="4.6647">PTT</text>
-		<text transform="matrix(1 0 0 1 168.8516 66.3535)" fill="#A6D7B2" font-family="'Abstract'" font-size="5.6141">130.85</text>
-		<text transform="matrix(1 0 0 1 194.002 103.1826)" fill="#A6D7B2" font-family="'Abstract'" font-size="3.2689">tune</text>
-		<text transform="matrix(1 0 0 1 127.335 103.1826)" fill="#A6D7B2" font-family="'Abstract'" font-size="3.2689">mem.</text>
+	<g enable-background="new    ">
+		<path fill="#A6D7B2" d="M216.252,32.372h-0.514v-2.516h5.514v2.516h-0.514V30.37h-1.986v2.002h-0.514V30.37h-1.986V32.372z"/>
+		<path fill="#A6D7B2" d="M222.502,32.372h-0.514v-2.516h4.764v2.516h-0.514V31.62h-3.736V32.372z M222.502,30.37v0.736h3.736V30.37
+			H222.502z"/>
+		<path fill="#A6D7B2" d="M228.252,32.372h-0.764v-0.266h0.25v-0.25h0.25v-0.25h0.25v-0.25h0.25V30.87h-0.25v-0.25h-0.25v-0.25
+			h-0.25v-0.25h-0.25v-0.264h0.764v0.25h0.25v0.25h0.25v0.25h0.25v0.25h1.736v-0.25h0.25v-0.25h0.25v-0.25h0.25v-0.25h0.764v0.264
+			h-0.25v0.25h-0.25v0.25h-0.25v0.25h-0.25v0.486h0.25v0.25h0.25v0.25h0.25v0.25h0.25v0.266h-0.764V32.12h-0.25v-0.25h-0.25v-0.25
+			h-0.25v-0.25h-1.736v0.25h-0.25v0.25h-0.25v0.25h-0.25V32.372z"/>
+	</g>
+	<g enable-background="new    ">
+		<path fill="#A6D7B2" d="M146.237,89.477v-2.516h4.764v2.516H146.237z M146.751,87.475v1.486h3.736v-1.486H146.751z"/>
+	</g>
+	<g enable-background="new    ">
+		<path fill="#A6D7B2" d="M125.826,19.908h-1.199V14.04h11.111v3.531h-9.913V19.908z M125.826,15.239v1.133h8.713v-1.133H125.826z"
+			/>
+		<path fill="#A6D7B2" d="M142.12,15.239h-4.665V14.04h10.528v1.199h-4.665v4.669h-1.199V15.239z"/>
+		<path fill="#A6D7B2" d="M154.365,15.239H149.7V14.04h10.528v1.199h-4.665v4.669h-1.199V15.239z"/>
+	</g>
+	<g enable-background="new    ">
+		<path fill="#A6D7B2" d="M170.261,66.376h-1.443v-7.062h1.443V66.376z"/>
+		<path fill="#A6D7B2" d="M172.327,66.376v-1.448h11.93v-1.364h-11.93V62.12h11.93v-1.364h-11.93v-1.442h13.373v7.062H172.327z"/>
+		<path fill="#A6D7B2" d="M187.766,66.376v-7.062h13.373v7.062H187.766z M189.209,60.756v4.172h10.486v-4.172H189.209z"/>
+		<path fill="#A6D7B2" d="M204.646,66.376h-1.442v-1.448h1.442V66.376z"/>
+		<path fill="#A6D7B2" d="M206.713,59.313h13.373v7.062h-13.373V59.313z M208.156,60.756v1.364h10.486v-1.364H208.156z
+			 M208.156,63.563v1.364h10.486v-1.364H208.156z"/>
+		<path fill="#A6D7B2" d="M222.152,59.313h13.372v1.442h-11.93v1.364h11.93v4.256h-13.372v-1.448h11.93v-1.364h-11.93V59.313z"/>
+	</g>
+	<g enable-background="new    ">
+		<path fill="#A6D7B2" d="M197.252,99.924h-3.27v-0.841h7.378v0.841h-3.269v3.271h-0.84V99.924z"/>
+		<path fill="#A6D7B2" d="M202.563,103.195v-4.112h0.84v3.27h6.106v-3.27h0.84v4.112H202.563z"/>
+		<path fill="#A6D7B2" d="M212.393,103.195h-0.84v-4.112h7.787v4.112h-0.841v-3.271h-6.106V103.195z"/>
+		<path fill="#A6D7B2" d="M220.543,103.195v-4.112h7.786v0.841h-6.946v0.794h6.946v0.84h-6.946v0.795h6.946v0.843H220.543z"/>
+	</g>
+	<g enable-background="new    ">
+		<path fill="#A6D7B2" d="M128.155,103.195h-0.84v-4.112h9.012v4.112h-0.84v-3.271h-3.246v3.271h-0.84v-3.271h-3.246V103.195z"/>
+		<path fill="#A6D7B2" d="M137.531,103.195v-4.112h7.787v0.841h-6.947v0.794h6.947v0.84h-6.947v0.795h6.947v0.843H137.531z"/>
+		<path fill="#A6D7B2" d="M147.36,103.195h-0.84v-4.112h9.012v4.112h-0.84v-3.271h-3.246v3.271h-0.84v-3.271h-3.246V103.195z"/>
+		<path fill="#A6D7B2" d="M157.575,103.195h-0.84v-0.843h0.84V103.195z"/>
 	</g>
 	<rect x="25.5" y="139.166" fill="none" width="301.5" height="66.666"/>
 </g>
@@ -66,24 +97,26 @@
 <g>
 	<g>
 		<g>
-			<defs>
-				<path id="SVGID_1_" d="M126.141,90h18.833c0,0,1-44.865,15-54.6s69.5-6.701,74.667-6.701v-6.201H126.282L126.141,90z"/>
-			</defs>
-			<clipPath id="SVGID_2_">
-				<use xlink:href="#SVGID_1_"  overflow="visible"/>
-			</clipPath>
-			<g clip-path="url(#SVGID_2_)">
-				<rect x="126.141" y="85.004" fill="#30544F" width="109.308" height="4.996"/>
-				<rect x="126.141" y="78.804" fill="#30544F" width="109.308" height="4.995"/>
-				<rect x="126.141" y="72.605" fill="#30544F" width="109.308" height="4.994"/>
-				<rect x="126.141" y="66.404" fill="#30544F" width="109.308" height="4.996"/>
-				<rect x="126.141" y="60.204" fill="#30544F" width="109.308" height="4.995"/>
-				<rect x="126.141" y="54.002" fill="#30544F" width="109.308" height="4.994"/>
-				<rect x="126.141" y="47.801" fill="#30544F" width="109.308" height="4.995"/>
-				<rect x="126.141" y="41.602" fill="#30544F" width="109.308" height="4.996"/>
-				<rect x="126.141" y="35.4" fill="#30544F" width="109.308" height="4.995"/>
-				<rect x="126.141" y="29.201" fill="#30544F" width="109.308" height="4.995"/>
-				<rect x="126.141" y="23" fill="#30544F" width="109.308" height="4.995"/>
+			<g>
+				<defs>
+					<path id="SVGID_1_" d="M126.141,90h18.833c0,0,1-44.865,15-54.6s69.5-6.701,74.667-6.701v-6.201H126.282L126.141,90z"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  overflow="visible"/>
+				</clipPath>
+				<g clip-path="url(#SVGID_2_)">
+					<rect x="126.141" y="85.004" fill="#30544F" width="109.308" height="4.996"/>
+					<rect x="126.141" y="78.804" fill="#30544F" width="109.308" height="4.995"/>
+					<rect x="126.141" y="72.605" fill="#30544F" width="109.308" height="4.994"/>
+					<rect x="126.141" y="66.404" fill="#30544F" width="109.308" height="4.996"/>
+					<rect x="126.141" y="60.204" fill="#30544F" width="109.308" height="4.995"/>
+					<rect x="126.141" y="54.002" fill="#30544F" width="109.308" height="4.994"/>
+					<rect x="126.141" y="47.801" fill="#30544F" width="109.308" height="4.995"/>
+					<rect x="126.141" y="41.602" fill="#30544F" width="109.308" height="4.996"/>
+					<rect x="126.141" y="35.4" fill="#30544F" width="109.308" height="4.995"/>
+					<rect x="126.141" y="29.201" fill="#30544F" width="109.308" height="4.995"/>
+					<rect x="126.141" y="23" fill="#30544F" width="109.308" height="4.995"/>
+				</g>
 			</g>
 		</g>
 	</g>
@@ -115,18 +148,20 @@
 							<g>
 								<g>
 									<g>
-										<defs>
-											<path id="SVGID_3_" d="M126.141,90h18.833c0,0,1-44.865,15-54.6s69.5-6.701,74.667-6.701v-6.201H126.282L126.141,90z"/>
-										</defs>
-										<clipPath id="SVGID_4_">
-											<use xlink:href="#SVGID_3_"  overflow="visible"/>
-										</clipPath>
-										<g clip-path="url(#SVGID_4_)">
-											<rect x="126.141" y="85.004" fill="#A6D7B2" width="109.308" height="4.996"/>
-											<rect x="126.141" y="78.804" fill="#A6D7B2" width="109.308" height="4.995"/>
-											<rect x="126.141" y="72.605" fill="#A6D7B2" width="109.308" height="4.994"/>
-											<rect x="126.141" y="66.404" fill="#A6D7B2" width="109.308" height="4.996"/>
-											<rect x="126.141" y="60.204" fill="#A6D7B2" width="109.308" height="4.995"/>
+										<g>
+											<defs>
+												<path id="SVGID_3_" d="M126.141,90h18.833c0,0,1-44.865,15-54.6s69.5-6.701,74.667-6.701v-6.201H126.282L126.141,90z"/>
+											</defs>
+											<clipPath id="SVGID_4_">
+												<use xlink:href="#SVGID_3_"  overflow="visible"/>
+											</clipPath>
+											<g clip-path="url(#SVGID_4_)">
+												<rect x="126.141" y="85.004" fill="#A6D7B2" width="109.308" height="4.996"/>
+												<rect x="126.141" y="78.804" fill="#A6D7B2" width="109.308" height="4.995"/>
+												<rect x="126.141" y="72.605" fill="#A6D7B2" width="109.308" height="4.994"/>
+												<rect x="126.141" y="66.404" fill="#A6D7B2" width="109.308" height="4.996"/>
+												<rect x="126.141" y="60.204" fill="#A6D7B2" width="109.308" height="4.995"/>
+											</g>
 										</g>
 									</g>
 								</g>
