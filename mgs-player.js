@@ -23,7 +23,25 @@
 
 		this.find('img').hide();
 
-		this.hide().slideToggle(200, function(){
+		function triggerClick() {
+			// advance dialogue to next note
+			notes.eq(current_note).fadeIn(200);
+
+			// hide previous
+			notes.eq(current_note).prevAll().hide(100);
+
+			// increment forward
+			current_note += 1;
+			return;
+		}
+
+		function animateCodecBar() {
+			// randomize the height of the bar to simulate volume
+			volume_indicator.height(Math.random()*max_volume);
+			return;
+		}
+
+		function init() {
 			self.find('img').each(function(k, elem){
 				var _elem = $(elem);
 				_elem.fadeIn(400);
@@ -32,23 +50,14 @@
 			// show first note
 			notes.eq(0).show();
 
-			self.on('click', function(e){
-
-				// advance dialogue to next note
-				notes.eq(current_note).fadeIn(200);
-
-				// hide previous
-				notes.eq(current_note).prevAll().hide(100);
-
-				// increment forward
-				current_note += 1;
-			});
+			self.on('click', triggerClick);
 
 			setTimeout(function(){
-				setInterval(function(){
-					volume_indicator.height(Math.random()*max_volume);
-				}, opts.interval_speed);
+				setInterval(animateCodecBar, opts.interval_speed);
 			}, opts.animation_timeout);
-		});
+			return;
+		}
+
+		this.hide().slideToggle(200, init);
 	};
 })(jQuery);
